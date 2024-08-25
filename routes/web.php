@@ -50,7 +50,7 @@ Route::prefix('/admin')->group(function(){
 
     Route::get('/users',[AdminController::class,'users'])->name("admin_users")->middleware('auth');
 
-    Route::get('/products',[AdminProductController::class,'index'])->name("admin_products");
+    Route::get('/aroducts',[AdminProductController::class,'index'])->name("admin_products");
 
     Route::get("/show_products",[ProductController::class,'index']);
     
