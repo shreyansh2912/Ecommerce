@@ -31,3 +31,4 @@ Route::post("/delete_products",[ProductController::class,'destroy']);
 Route::get("/show_category",[ProductController::class,'index']);
 Route::get("/show_subCategory",[ProductController::class,'sub']);
 
+// Route::post('/addUser')

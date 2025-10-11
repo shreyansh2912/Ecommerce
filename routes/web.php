@@ -67,4 +67,4 @@ Route::prefix('/admin')->group(function(){
 });
 
 
-// Route::get('/sendEmail',[MailController::class,'index']);
+Route::get('/sendEmail',[MailController::class,'index']);
